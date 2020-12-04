@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsactivity"
+    tools:context="com.example.yasinislam.cameradetector.Photomode">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/tom"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/analyze"
+        android:text="Analyze"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:layout_marginEnd="39dp"
+        android:layout_above="@+id/settings_"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="load"
+        android:layout_above="@+id/save_"
+        android:layout_toStartOf="@+id/settings_"
+        android:layout_marginEnd="28dp" />
+
+    <Button
+        android:id="@+id/settings_"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="Settings"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/analyze" />
+
+    <Button
+        android:id="@+id/save_"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/load" />
+
+</RelativeLayout>

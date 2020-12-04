@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsactivity"
+    tools:context="com.example.yasinislam.cameradetector.EmoVideoSettings">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginStart="26dp"
+        android:text="Happy"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/happyvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Path" />
+
+    <Button
+        android:id="@+id/happybrowse"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="Browse"
+        android:layout_alignBottom="@+id/happyvideo"
+        android:layout_toEndOf="@+id/happyvideo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sad"
+        android:layout_below="@+id/happyvideo"
+        android:layout_alignStart="@+id/happyvideo"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:id="@+id/sadvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Path"
+        android:layout_toStartOf="@+id/happybrowse" />
+
+    <Button
+        android:id="@+id/sadbrowse"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="Browse"
+        android:layout_alignBottom="@+id/sadvideo"
+        android:layout_toEndOf="@+id/sadvideo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Angry"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/sadvideo"
+        android:layout_alignStart="@+id/sadvideo" />
+
+    <EditText
+        android:id="@+id/angryvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Path"
+        android:layout_toStartOf="@+id/sadbrowse" />
+
+    <Button
+        android:id="@+id/angrybrowse"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:layout_alignBottom="@+id/angryvideo"
+        android:layout_toEndOf="@+id/angryvideo"
+        android:text="Browse" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Surprised"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/angryvideo"
+        android:layout_alignStart="@+id/angryvideo" />
+
+    <EditText
+        android:id="@+id/surprisedvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Path"
+        android:layout_toStartOf="@+id/angrybrowse" />
+
+    <Button
+        android:id="@+id/surprisedbrowse"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/box"
+        android:text="Browse"
+        android:layout_alignBottom="@+id/surprisedvideo"
+        android:layout_toEndOf="@+id/surprisedvideo" />
+
+
+</RelativeLayout>

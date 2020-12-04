@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/settingsactivity"
+    tools:context="com.example.yasinislam.cameradetector.SettingsForPhoto">
+
+    <TextView
+        android:id="@+id/textView_"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="General Settings"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp" />
+
+    <Switch
+        android:id="@+id/facedetection_"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Face Detection"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView_"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/emotiondetection_"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Emotion Detection"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/facedetection_"
+        android:layout_alignStart="@+id/facedetection_" />
+
+    <Switch
+        android:id="@+id/landmarkdetection_"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Landmark Detection"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/emotiondetection_"
+        android:layout_alignStart="@+id/emotiondetection_" />
+
+    <Switch
+        android:id="@+id/emoji_"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Emoji Detection"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/landmarkdetection_"
+        android:layout_alignStart="@+id/landmarkdetection_" />
+
+</RelativeLayout>
