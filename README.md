@@ -3,6 +3,8 @@ A camera which can detect emotions like smile, sad, angry, surprise etc. \
 It has both features to detect emotions on a stationary picture and live on a camera. \
 It can also capture images in both manual and gesture mode.
 
+You can download and install the app from [here](https://github.com/mdyasin044/Emocam/blob/master/app-debug.apk).
+
 # Technologies Used
 
 - Affectiva API
