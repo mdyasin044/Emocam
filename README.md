@@ -5,8 +5,9 @@ It can also capture images in both manual and gesture mode.
 
 # Technologies Used
 
-- Affectiva
+- Affectiva API
 - Android Studio IDE
+- Android SDK 19-26
 
 # How it look like
 
